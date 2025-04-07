@@ -146,7 +146,7 @@ Lo que cambia es que podemos elegir el elemento con el que queremos acceder en l
 
 ### Respuesta:
 
-## Son diferentes formas de hacer una tabla. En el primer caso, tenemos una tabla con 2 columnas y 3 filas (una fila de encabezado y dos filas de datos), donde "Columna 1" y "Columna 2" están marcadas como celdas de encabezado usando la etiqueta `<th>`. En el segundo caso, estas mismas columnas se implementan como celdas normales `<td>` con formato aplicado manualmente para simular el aspecto de un título de columna. La primera tabla es superior porque es semánticamente correcta al usar los elementos HTML según su propósito original y requiere menos código al aprovechar los estilos predeterminados que los navegadores aplican a los elementos `<th>`. Además, al usar la etiqueta apropiada `<th>`, la estructura de la tabla es más clara y mantenible.
+Son diferentes formas de hacer una tabla. En el primer caso, tenemos una tabla con 2 columnas y 3 filas (una fila de encabezado y dos filas de datos), donde "Columna 1" y "Columna 2" están marcadas como celdas de encabezado usando la etiqueta `<th>`. En el segundo caso, estas mismas columnas se implementan como celdas normales `<td>` con formato aplicado manualmente para simular el aspecto de un título de columna. La primera tabla es superior porque es semánticamente correcta al usar los elementos HTML según su propósito original y requiere menos código al aprovechar los estilos predeterminados que los navegadores aplican a los elementos `<th>`. Además, al usar la etiqueta apropiada `<th>`, la estructura de la tabla es más clara y mantenible.
 
 ## 3.e)
 
@@ -197,7 +197,7 @@ Los dos caso se muestran tablas nada mas que en el primero definimos el ancho en
 
 ### Código:
 
-```html
+````html
 <table width="200">
   <tr>
     <td colspan="3">
@@ -230,48 +230,45 @@ Los dos caso se muestran tablas nada mas que en el primero definimos el ancho en
     <td bgcolor="#dddddd">&nbsp;</td>
   </tr>
 </table>
-```
 
-### Respuesta:
-
-    Lo que se aplica en estos casos son <rowspan> y <colspan> siendo que primero difinimos la tabla de tres filas, donde colspan se usa para que 2 o mas celdas en una misma fila se fusionen en 1 y en rowspan se fusionan 2 o mas celdas de la misma fila
-
----
-
-## 3.g)
-
-### Código:
-
-```html
-<table width="200" border="1">
-  <tr>
-    <td colspan="3">
-      <div align="center">Título</div>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" rowspan="2">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="50%">&nbsp;</td>
-  </tr>
-</table>
-<table width="200" border="1" cellpadding="0" cellspacing="0">
-  <tr>
-    <td colspan="2">
-      <div align="center">Título</div>
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="2">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="50%">&nbsp;</td>
-  </tr>
-</table>
-```
+### Respuesta: Lo que se aplica en estos casos son
+<rowspan>
+  y
+  <colspan>
+    siendo que primero difinimos la tabla de tres filas, donde colspan se usa
+    para que 2 o mas celdas en una misma fila se fusionen en 1 y en rowspan se
+    fusionan 2 o mas celdas de la misma fila ## 3.g) ### Código: ```html
+    <table width="200" border="1">
+      <tr>
+        <td colspan="3">
+          <div align="center">Título</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="50%">&nbsp;</td>
+      </tr>
+    </table>
+    <table width="200" border="1" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2">
+          <div align="center">Título</div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="50%">&nbsp;</td>
+      </tr>
+    </table></colspan
+  ></rowspan
+>
+````
 
 ### Respuesta:
 
@@ -323,4 +320,4 @@ En estos casos se aplica el atributo de borde a la tabla "border="1" , nada mas 
 
 ### Respuesta:
 
-Estos tres formularios de login presentan diferencias clave en seguridad, estructura y funcionamiento. Mientras el primero y tercero ocultan las contraseñas con type="password", el segundo las muestra en texto plano con type="text". Dos formularios usan type="submit" para enviar datos, pero el tercero tiene type="reset" que solo limpia campos. En estructura, el primero y tercero agrupan campos con <fieldset>, mientras el segundo solo usa saltos de línea. Los métodos de envío varían: POST a PHP, GET a la misma página, y mailto: con errores . Pero dentro de los tres formularios el primero es mas completo.
+Estos tres formularios de login presentan diferencias clave en seguridad, estructura y funcionamiento. Mientras el primero y tercero ocultan las contraseñas con type="password", el segundo las muestra en texto plano con type="text". Dos formularios usan type="submit" para enviar datos, pero el tercero tiene type="reset" que solo limpia campos. En estructura, el primero y tercero agrupan campos con " <fieldset>", mientras el segundo solo usa saltos de línea. Los métodos de envío varían: POST a PHP, GET a la misma página, y mailto: con errores . Pero dentro de los tres formularios el primero es mas completo.
