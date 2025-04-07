@@ -1,0 +1,96 @@
+
+Analizar los siguientes segmentos de código indicando en qué sección del documento HTML 
+se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos 
+(nombre y valor), aclarando si es obligatorio.
+
+
+2.a)
+<!-- Código controlado el día 12/08/2009 -->
+
+Este es un Comentario, se puede colocar en cualquier parte del documento, exepto dentro de las etiquetas,Los comentarios son herramientas para desarrolladores que no impactan la visualización final de la página.
+
+2.b) 
+
+<div id="bloque1">Contenido del bloque1</div>. Se encuentra en el cuerpo body
+
+<div></div> Es un elemento de division de contenido. No tiene efecto en el contenido o en el diseño hasta que se le aplica un estilo de alguna manera usando CSS . Y en este caso "Contenido del bloque1" seria el texto que se va a encontrar en ese contenedor.
+id="bloque1" es un atributo que permite identificar a la etiqueta
+
+2.c) 
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" 
+longdesc="detalles.htm" />
+
+En este caso es una etiqueta,  muestra una imagen en la página web y posee una serie de atributos va , solo se puede colocar en <body>
+
+El segmento <img ... /> pertenece al cuerpo (<body>) 
+Atributos:
+  -src=""- Ruta de la imagen. Si está vacío, la imagen no se carga.
+  -alt="lugar imagen"- Atributo para accerder a la imagen
+  -id="im1"-  Identificador
+  -name="im1"- Nombre para scripts
+  -width="32"- Ancho de la imagen en píxeles 
+  -height="32"- Alto de la imagen en píxeles
+  -longdesc="detalles.htm"- URL de la imagen
+
+2.d)
+1-<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+2-<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+<meta ........../>Es un metadato, que aporta informacion sobre el documento, estos meta van a estar dentro de la sección <head> del documento HTML.
+1-Proporcionar metadatos sobre el contenido de la página.
+Atributos:
+  -name="keywords" -Nombre al que se asocia la metainformación
+  -lang="es" - Información sobre el idioma del contenido del elemento y del valor de sus atributos.
+  -content="casa, compra, venta, alquiler " - Los datos que se quieren asociar a name o lista de palabras clave.
+
+2-Controlar el caché del navegador
+Atributos:
+  -http-equiv="expires" - Aporta información sobre los encabezado de respuesta HTTP
+  -content="16-Sep-2019 7:49 PM" - Los datos que se quieren asociados. 
+
+2.e)
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" 
+rel="help">Resumen HTML </a>
+
+<a ......>...</a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL. Va  dentro del <body> del documento HTML, esta crea un hipervinculo a otro recurso web. Muestra un enlace clickeable con el texto "Resumen HTML".
+
+Atributos:
+  -href="http://www.e-style.com.ar/resumen.html" -URL del recurso vinculado.
+  -type="text/html" - Especifica el tipo de medio (media type) en la forma de MIME type para la URL enlazada.
+  -hreflang="es" - Idioma del recurso vinculado 
+  -charset="utf-8" - Codificación del recurso vinculado
+  -rel="help" - Indica que el enlace es un recurso de ayuda
+
+
+2.f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+<caption align="top"> Título </caption>
+<tr>
+<th scope="col">&nbsp;</th>
+<th scope="col">A</th>
+<th scope="col">B</th>
+<th scope="col">C</th>
+</tr>
+<tr>
+<th scope="row">1º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">2º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+Esta seria el Elemento de Tabla HTML (<table>) representa datos en dos o mas dimensiones. Crear una tabla estructurada con cabeceras y celdas vacías.
+Atributos:
+  - width="200" - Ancho en pixeles
+  - summary="Datos correspondientes al ejercicio vencido" - Texto descriptivo
+  -<tr> </tr> - Define una fila de celdas en una tabla. 
+  -<th></th> -  Define una celda como encabezado de un grupo de celdas en una tabla
+  -<td></td> - Celda de tabla (<td>) define la celda de una tabla que contiene datos.
+  -scope="col" - Define relación celdas 
+  -&nbsp  -Celdas vacías
