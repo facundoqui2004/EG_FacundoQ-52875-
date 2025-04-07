@@ -103,7 +103,7 @@ Lo que cambia es que podemos elegir el elemento con el que queremos acceder en l
 
 ### Respuesta:
 
-## En estos casos se aplican las listas, los dos primeros casos se muestran las dos formas de presentarlas, en la tercera se aplica un espacio en blaco con `<ol></ol>`, y el cuato caso se aplica `<blockquote></blockquote>` se usa para crear un bloque, y se aplican los puntos en forma de texto aplicando las tabulaciones `<br>`.
+En estos casos se aplican las listas, los dos primeros casos se muestran las dos formas de presentarlas, en la tercera se aplica un espacio en blaco con `<ol></ol>`, y el cuato caso se aplica `<blockquote></blockquote>` se usa para crear un bloque, y se aplican los puntos en forma de texto aplicando las tabulaciones `<br>`.
 
 ## 3.d)
 
