@@ -1,0 +1,12 @@
+3.A) ¿Qué formatos soporta ?
+3.B) Crear un elemento video
+Ejemplo de src: https://www.w3schools.com/html/mov_bbb.mp4/ogg
+
+3.A)
+HTML5 permite incrustar videos directamente en páginas web sin necesidad de plugins externos (como Flash) mediante la etiqueta <video>. Los formatos más soportados son:
+-MP4
+-WebM
+-Ogg
+
+
+3.B) En el index

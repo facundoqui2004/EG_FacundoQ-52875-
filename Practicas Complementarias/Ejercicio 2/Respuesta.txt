@@ -1,0 +1,7 @@
+Ejercitación 2
+2.A) ¿Qué formatos soporta ?
+2.B) Crear un elemento audio
+Ejemplo de src: https://html5tutorial.info/media/vincent.mp3
+
+2.A) Soporta la incorporacion de formatos de audio, videom, e inclusio APIs.
+2.B)En el index
