@@ -25,7 +25,7 @@ gen1" />Click aquí</a></p>
 <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a 
 href="http://www.google.com.ar">Click aquí</a></p>
 
-Lo que cambia es que podemos elegir el elemento con el que queremos acceder en los primeros dos casos hacemos que en acceso al enlace <a></a> este en Click pero despues se coloca como un texto. En el terce caso se hace en el texto completo imagen1Click aqui ya que esta todo en el enlzace. Estos tres ejemplos aplican el "alt" que es para describir a la imagen, en los primeros casos aparece es descripcion en la pagina por que como no hay imagen se muestra la descripcion.
+En los primeros dos casos, el acceso al enlace `<a></a>` está asociado al texto "Click aquí". En el tercer caso, el enlace abarca tanto la imagen como el texto "Click aquí", ya que todo está contenido dentro de la etiqueta `<a></a>`. Además, en estos ejemplos se utiliza el atributo `alt` para describir la imagen. Si la imagen no se carga, la descripción proporcionada en `alt` se muestra en su lugar. Esto ocurre en los primeros casos, donde no se visualiza la imagen y aparece la descripción en la página.
 
 3.c)
 <ul> 
