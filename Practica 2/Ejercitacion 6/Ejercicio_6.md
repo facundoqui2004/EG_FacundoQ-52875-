@@ -1,0 +1,12 @@
+# Ejercicio 6  
+
+Dado los códigos de los documentos `principal.html` y `estilo2.css`, realizar las modificaciones necesarias en el documento HTML para reemplazar la hoja de estilo interna por la externa `estilo2.css` (sin modificarla) y obtener la misma salida en el navegador.
+
+## Cambios requeridos  
+
+Para obtener la misma salida con el documento `estilo2.css`, se deben realizar los siguientes cambios:  
+
+1. Declarar un `<link rel="stylesheet" href="estilo2.css" type="text/css">` en el documento HTML.  
+2. Cambiar el `id` de `titulo` a `encabezado` para que se aplique el estilo correspondiente.  
+3. Agregar la clase `viñeta` al elemento `<ul>` para aplicar los estilos a la lista.  
+4. Agregar la clase `estilopie` al pie de la página para que se apliquen los estilos correspondientes.  
