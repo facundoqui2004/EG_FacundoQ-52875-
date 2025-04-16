@@ -1,0 +1,78 @@
+# Ejercicio 4
+
+Dadas las siguientes declaraciones:
+
+```css
+* {
+  color: green;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: fuchsia;
+}
+a:active {
+  color: red;
+}
+p {
+  font-family: arial, helvetica;
+  font-size: 10px;
+  color: black;
+}
+.contenido {
+  font-size: 14px;
+  font-weight: bold;
+}
+```
+
+Analizar los siguientes códigos y comparar sus efectos. Explicar:
+
+```html
+<body>
+  <p class="contenido" style="font-weight: normal;">
+    Este es un texto ...............
+  </p>
+
+  <table>
+    <tr>
+      <td>Y esta es una tabla.......</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.google.com.ar">con un enlace</a></td>
+    </tr>
+  </table>
+</body>
+
+<body class="contenido">
+  <p>Este es un texto................</p>
+  <table>
+    <tr>
+      <td>Y esta es una tabla.......</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.google.com.ar">con un enlace</a></td>
+    </tr>
+  </table>
+</body>
+```
+
+---
+
+**Respuesta:**
+
+Dentro de este código sucede que se va a agregar un color de fuente a ambos `body` suponiendo que van a estar conectados con el mismo `style.css`. Luego sucede que:
+
+### Body 1:
+
+1. El contenido del párrafo no va a ser verde, ni por el estilo del párrafo, porque tiene un estilo definido dentro de la etiqueta y este va a pisar a esos estilos creados.
+2. Se declaran algunas pseudo-clases, siendo `a:link` el color normal del enlace. Luego, `a:visited` cambia el color de los enlaces a azul si fueron visitados, y `a:hover` cambia el color del enlace a `fuchsia` cuando se posiciona el cursor sobre este. Por último, la pseudo-clase `a:active` cambia el color del enlace a rojo mientras se encuentra en estado activo, es decir, cuando se está haciendo clic sobre él.
+
+### Body 2:
+
+1. El párrafo no se ve afectado por el color verde porque existe un estilo definido para los párrafos que cambia el tipo de letra, el tamaño y aplica **negrita**.
+2. Se declaran algunas pseudo-clases, siendo `a:link` el color normal del enlace. Luego, `a:visited` cambia el color de los enlaces a azul si fueron visitados, y `a:hover` cambia el color del enlace a `fuchsia` cuando se posiciona el cursor sobre este. Por último, la pseudo-clase `a:active` cambia el color del enlace a rojo mientras se encuentra en estado activo, es decir, cuando se está haciendo clic sobre él.
+3. Con el estilo `.contenido` va a cambiar el segundo `body`, cambiando las letras, por lo que se puede ver como una forma de aplicar dos estilos en dos páginas separadas. Y eso va a pisar a los cambios declarados en `*`.

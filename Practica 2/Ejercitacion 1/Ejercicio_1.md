@@ -1,8 +1,12 @@
 # Ejercicio 1: Responder
 
+---
+
 1. **¿Qué es CSS y para qué se usa?**
 
 Css no es realmente un lenguaje de programación, lenguaje marcado, este permite aplicar estilos de manera selectiva a elementos en documentos HTML. Este describe cómo los elementos en la página son presentados al usuario.
+
+---
 
 2. **CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?**
 
@@ -17,6 +21,8 @@ Una regla CSS se compone de:
 - **Selector**: Indica a qué elemento(s) HTML se aplica el estilo (ej: `p`, `.clase`, `#id`).
 - **Declaraciones**: Entre llaves `{}`, con pares propiedad: valor (ej: `color: blue;`).
 
+---
+
 3. **¿Cuáles son las tres formas de dar estilo a un documento?**
 
 Las formas de dar estilo a un documento son:
@@ -24,6 +30,8 @@ Las formas de dar estilo a un documento son:
 1. A Nivel del elemento HTML (Dentro del documento HTML)
 2. A Nivel de página (Dentro del documento HTML)
 3. Definición en un archivo externo
+
+---
 
 4. **¿Cuáles son los distintos tipos de selectores más utilizados? Ejemplifique cada uno.**
 
@@ -54,10 +62,16 @@ Dentro de las pseudo-clases podemos encontrar:
 
 Dentro de las más utilizadas tenemos a las pseudo-clases dinámicas (Aplicaciones del usuario interactivas a veces cambian el procesamiento en respuesta a las acciones del usuario) y de vínculo (Aplicado a vínculos no visitados de un modo diferenciado de aquellos previamente visitados).
 
+---
+
 6. **¿Qué es la herencia?**
 
 Es la forma que se heredan valores siguiendo la estructura del documento, o sea que algunos valores de las propiedades CSS establecidas en elementos padres se transmiten a sus elementos hijos.
 
+---
+
 7. **¿En qué consiste el proceso denominado cascada?**
 
 El proceso de cascada es el mecanismo por el cual el navegador determina qué estilos aplicar a un elemento cuando existen múltiples reglas CSS que podrían afectarlo. La "cascada" se refiere a cómo las reglas de diferentes fuentes fluyen juntas, con algunas teniendo prioridad sobre otras.jercicio 1: Responder
+
+---
