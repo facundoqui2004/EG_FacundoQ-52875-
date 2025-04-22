@@ -1,0 +1,43 @@
+
+.head{
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.sidebar {
+  background-color: #343a40;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.tipo2{
+  background-color: rgb(196, 171, 220);
+  color: white;
+  padding: 15px;
+  margin: 10px;
+}
+
+.tipo1 {
+  background-color: rgb(44, 73, 141);
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  height: 90%
+}
+.tipo3{
+  background-color: rgb(80, 153, 117);
+  color: white;
+  padding: 15px;
+  margin: 10px;
+
+
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: 100px;
+    margin: 10px;
+  }
+}

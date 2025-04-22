@@ -1,0 +1,21 @@
+*{
+  text-align: center;
+}
+.container {
+background-color: azure;
+text-align: center ;
+}
+
+
+.col-md-1{
+  background-color: rgb(150, 101, 196);
+}
+.col-md-2{
+  background-color: rgb(241, 219, 192);
+
+}
+.col-md-3 {
+  background-color: rgb(226, 166, 93);
+
+}
+

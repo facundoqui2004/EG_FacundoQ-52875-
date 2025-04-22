@@ -1,0 +1,20 @@
+Práctica 2: sistema de grilla o rejillas
+1) Utilizar la grilla de Bootstrap para crear un div de clase container, que contenga dos filas.
+Para todas las resoluciones, excepto para sm, la primera fila deberá haber una columna
+que ocupe el 100% del ancho, y en la segunda deberá haber 2 columnas que ocupen el
+50% del ancho cada una. Para sm y resoluciones más pequeñas, deberán haber 3 filas
+con 1 columna que ocupe el 100% del ancho en cada una, como se detalla en el siguiente
+ejemplo:
+Entornos Gráficos
+Práctica realizada por: Ing. Milardovich
+Revisada por: Ing. Diaz /Ing. Butti
+Ejemplo para todas las resoluciones mayores a sm:
+Ejemplo para resoluciones igual o menores a sm:
+2) Crear la estructura básica de un sitio web como se muestra en el ejemplo siguiente. La
+barra lateral (sidebar) deberá tener un tamaño de 3, al igual que los 6 rectángulos del
+centro del diseño. El rectángulo celeste de la esquina inferior derecha deberá tener un
+tamaño de 6. Utilizar el segundo mockup para el tamaño sm.
+
+
+Cuestiones:
+eL EJERCICIO 1 lo trabajé de dos formas distintas por que no entendi el que al principio tengan dos filas, por que pense usando dos rows para separar a las que ocupan 50%  de la que ocupa el 100%, igual en la opcion b lo hice con un solo row por se es que esta mal
