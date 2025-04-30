@@ -1,0 +1,69 @@
+Ejercicio 1:
+En el siguiente código identificar:
+• las variables y su tipo
+• los operadores
+• las funciones y sus parámetros
+• las estructuras de control
+• cuál es la salida por pantalla
+
+
+<?php
+   function doble($i) {
+      return $i*2;
+   }
+$a = TRUE;
+$b = "xyz";
+$c = 'xyz';
+$d = 12;
+echo gettype($a);
+echo gettype($b);
+echo gettype($c);
+echo gettype($d);
+
+if (is_int($d)) {
+   $d += 4;
+}
+if (is_string($a)) {
+   echo "Cadena: $a";
+}
+$d = $a ? ++$d : $d*3;
+$f = doble($d++);
+$g = $f += 10;
+echo $a, $b, $c, $d, $f , $g;
+echo gettype($f);
+echo gettype($g);
+?>
+
+Respuestas
+ Variables y su tipo
+
+a es una variable del tipo boolean
+b es una variable del tipo string
+c es una varaible del tipo string
+d es una variable del tipo interger
+f es una variable del tipo interger
+g es una variable del tipo interger
+
+   Los operadores
+
+- = Asignacion basica
+- ?: Operador ternario $value = <operator> ? <true value> : <false value> funciona como el if siendo que la sentencia tru se Ejecuta dependiendo del operador y el false lo mismo
+- ++var Incrementar y retornar
+- var++ Retorna e incrementa despues.
+- += Asignacion Combinada
+
+
+   Funciones y sus parámetros
+- is_ funciones que devuelven booleaos que pregunta el tipo de valor que tienen
+- gettype funcion que devuelve el valor de una variable
+- echo funcion que retorna el parametro en pantalla
+- fuction(doble) Funcion a la que se llama para realizar el doble de un valor.
+- return devuelve el valor
+
+   Estructuras de control
+if
+
+
+   Salida por pantalla
+La salida en pantalla es:
+booleanstringstringinteger1xyzxyz184444integerinteger

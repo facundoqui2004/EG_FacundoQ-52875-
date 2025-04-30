@@ -1,0 +1,15 @@
+Ejercicio 4:
+Si el archivo datos.php contiene el código que sigue:
+<?php
+$color = 'blanco';
+$flor = 'clavel';
+?>
+Indicar las salidas que produce el siguiente código. Justificar.
+<?php
+echo "El $flor $color \n";
+include 'datos.php';
+echo " El $flor $color";
+?>
+Este codigo incluye los datos o el codigo de la funcion 'datos.php', siendo esta expresión 'include' incluye y evalúa el archivo especificado.
+Pero el codigo va a tener un error en la forma en la que se escribio ya que en la linea 2 del codigo principal se usa mal la forma de comentar ya que se incluyen variable de la forma $var, por lo que para comentar y mostrar esto se comenta con ''.
+// Para ejecutarlo tuve que cambiar esa parte del codigo.
