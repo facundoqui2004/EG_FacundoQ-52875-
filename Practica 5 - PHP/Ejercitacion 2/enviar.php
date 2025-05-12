@@ -4,7 +4,7 @@ $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_STRING);
 $texto = filter_var($_POST['texto'], FILTER_SANITIZE_STRING);
 
 if(!empty($email) && !empty($nombre) && !empty($texto)) {
-    $destino = "turomeoynosanto@gmail.com":
+    $destino = "turomeoynosanto@gmail.com";
     $asunto = "Mensaje de contacto desde la web";
 
     $cuerpo = '
@@ -22,16 +22,18 @@ if(!empty($email) && !empty($nombre) && !empty($texto)) {
     // Para el envio en HTML
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    //dirección del remitente
-    $headers .= "From: $nombre <$email.> "\r\n";
-    $heaeders -= "Return-path: $destino\r\n";
+    // dirección del remitente
+    $headers .= "From: $nombre <$email>" . "\r\n";
+    $headers .= "Return-path: $destino" . "\r\n";
 
-    mail($destino, $asunto, $cuerpo, $headers);
-    echo "<script>alert('Mensaje enviado correctamente');</script>";
-}else {
-    echo "<script>alert('Por favor, completa todos los campos.');</script>";
-}
+    if(mail($destino, $asunto, $cuerpo, $headers)) {
+        echo "<p>Mensaje enviado correctamente.</p>";
+
+    } else {
+        echo "<p>Error al enviar el mensaje.</p>";
+
+    }
 } else {
-    echo "<script>alert('Error al enviar el mensaje.');</script>";
+    echo "<p>Por favor, completa todos los campos</p>";
 }
 ?>
