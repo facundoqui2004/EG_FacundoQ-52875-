@@ -1,0 +1,311 @@
+/*General*/
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #96700a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+main {
+    padding: 20px;
+    background-color: #e2c472;
+    min-height: calc(100vh - 160px); 
+}
+
+footer {
+    background-color: #96700a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+/* Index */
+#menu-abm {
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.menu-header {
+    background-color: #92691b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.menu-list li:first-child {
+    border-top: none;
+}
+
+.menu-list a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #7a660b;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-list a:hover {
+    background-color: #f0f0f0;
+    color: #0056b3;
+}
+
+/* Altaphp */
+#Altaphp .anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px; 
+    color: white;
+    background-color: #2bbd26;
+    border: 3px solid #09581a;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Altaphp .anuncio a {
+    background-color: #104909;
+}
+#Altaphp .error {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;        
+    color: white;
+    background-color: #f03232;
+    border: 3px solid #580909;
+    border-radius: 10px;  
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Altaphp .error a {
+    background-color: #af0606;
+
+}
+#Altaphp .anuncio a:hover {
+    background-color: #0b3607;
+    color: #fff;
+}
+
+#Altaphp .error a:hover {
+    background-color: #8a0000;
+    color: #fff;
+}
+
+/* Menu de Baja */
+
+
+/* Bajaphp */
+#Bajaphp .borrado {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;         
+    color: white;
+    background-color: #2bbd26;
+    border: 3px solid #09581a;
+    border-radius: 10px;     
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Bajaphp .borrado a {
+    background-color: #104909;
+}
+#Bajaphp .error {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;         
+    color: white;
+    background-color: #f03232;
+    border: 3px solid #580909;
+    border-radius: 10px;   
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Bajaphp .error a {
+    background-color: #af0606;
+
+}
+#Bajaphp .anuncio a:hover {
+    background-color: #0b3607;
+    color: #fff;
+}
+
+#Bajaphp .error a:hover {
+    background-color: #8a0000;
+    color: #fff;
+}
+/* Menu de Modificacion */
+
+/* Modiphp */
+#Modiphp .modificado {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;         
+    color: white;
+    background-color: #2bbd26;
+    border: 3px solid #09581a;
+    border-radius: 10px;     
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Modiphp .modificado a {
+    background-color: #104909;
+}
+#Modiphp .error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;  
+    color: white;
+    background-color: #f03232;
+    border: 3px solid #580909;
+    border-radius: 10px;  
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Modiphp .error a {
+    background-color: #af0606;
+
+}
+#Modiphp .anuncio a:hover {
+    background-color: #0b3607;
+    color: #fff;
+}
+Modiphp .comeBack{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+        a {
+            background-color: #284788;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+        align-items: center;
+        }
+        a:hover {
+            background-color: rgb(59, 95, 129);
+        } 
+    }
+/* MODphp */
+#MODphp .anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    margin-top: 20px;
+    padding: 20px;  
+    color: white;
+    background-color: #2bbd26;
+    border: 3px solid #09581a;
+    border-radius: 10px; 
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#MODphp .anuncio a {
+    background-color: #104909;
+}
+
+
+#Consulta table {
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#Consulta thead tr {
+    background-color: #e9d38c;
+}
+
+#Consulta th, #Consulta td {
+
+    width: 200px;
+    border: 3px solid #7a7016;
+    padding: 8px;
+}
+
+#Consulta th {
+        color: wheat;
+    background-color: #787a02;
+}
+
+/* GENERALES */
+#comeBack{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    a {
+        align-items: center;
+        background-color: #96700a;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        text-decoration: none;
+        }
+        a:hover {
+            background-color: rgb(156, 154, 47);
+        } 
+    }
+
+    .btn-primary {
+        background-color: #96700a;
+        color: white;
+        text-decoration: none;
+        border: #4e3e12 3px solid;
+    }
+    .btn-primary:hover {
+        background-color: rgb(156, 154, 47);
+    }
+

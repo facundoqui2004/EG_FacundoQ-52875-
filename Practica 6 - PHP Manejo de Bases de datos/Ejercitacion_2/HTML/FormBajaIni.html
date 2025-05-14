@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body id="Alta">
+    <header>
+        <h1>Baja Alumnos</h1>
+    </header>
+    <main>
+        <h1 class="text-center">Dar de Baja Usuario </h1>
+        
+        <div class="container mt-5">
+            <form action="../PHP/Baja.php" method="post" class="simple-form" name="FormBajaIni">
+                <fieldset>
+                    <div class="mb-3">
+                        <label for="Eliminar" class="form-label">ID de Ciudad</label>
+                        <input type="text" class="form-control" id="ID" name="ID"  size="20" maxlength="40">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" class="btn btn-primary" value="Eliminar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="comeBack container mt-5">
+            <p><a href="../Index.html">Volver al Menu del ABM</a></p>
+        </div>
+    </main>
+    <footer>
+        <h4>Ejercicio de Manejo de Bases de Datos</h4>
+        <p>Facundo Quiñonez</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
