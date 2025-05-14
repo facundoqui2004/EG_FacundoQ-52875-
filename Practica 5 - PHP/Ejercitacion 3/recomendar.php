@@ -9,7 +9,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $e_destinatario = $_POST["e_destinatario"] ?? '';
 
     if (!empty($n_remitente) && !empty($e_remitente) && !empty($n_destinatario) && !empty($e_destinatario)) {
+<<<<<<< HEAD
         $url = "http://www.sitio.com";
+=======
+        $url = "http://www.yyyy.com";
+>>>>>>> 9f66846d0a5b75a79696a24f7184d2416731f26c
         $nombre_del_sitio = "Tu Sitio";
         $asunto = "$n_remitente te recomienda un sitio";
 
