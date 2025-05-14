@@ -4,7 +4,7 @@ $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_STRING);
 $texto = filter_var($_POST['texto'], FILTER_SANITIZE_STRING);
 
 if(!empty($email) && !empty($nombre) && !empty($texto)) {
-    $destino = "turomeoynosanto@gmail.com";
+    $destino = "yy@gmail.com";
     $asunto = "Mensaje de contacto desde la web";
 
     $cuerpo = '
